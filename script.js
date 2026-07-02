@@ -27,7 +27,7 @@ function submitForm() {
     document.getElementById('success-state').classList.add('visible');
 }
 
-// Smooth scroll for nav links
+
 document.querySelectorAll('nav a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {
         e.preventDefault();
